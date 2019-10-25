@@ -1,5 +1,6 @@
 #!/usr/bin/perl6
 
+use lib '/opt/IAS/lib/perl6';
 use lib $*PROGRAM.IO.resolve.parent.sibling('lib/perl6');
 
 use IAS::Infra;
